@@ -721,8 +721,18 @@ hr {
         width: 100%;
         text-align: center;
     }
+    .fp-markets-container img{
+        min-height: auto;
+    }
     .fp-markets-text {
         font-size: 1.5rem;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, 0%);
+        color: black;
+        text-align: left;
+        max-width: 100%;
     }
     .ms-5-3 {
         margin-left: 0;
@@ -745,7 +755,7 @@ hr {
         width: 70%;
     }
     .main-banner {
-        height: 80vh;
+        height: 100vh;
         background-position: 70% top !important;
     }
     .caption h2 {
@@ -810,8 +820,22 @@ hr {
     .sub-nav-titles {
         padding: 0.5rem 0.5rem;
     }
+    .main-banner fieldset {
+        margin-top: 25px;
+        background: none;
+    }
+    .rating-height {
+        padding-bottom: 0rem;
+    }
     .caption h2 {
         font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .mt-sm-2{
+        margin-top: 2rem;
+    }
+    .p-sm-2{
+        padding: 2rem;
     }
     .ribbon {
         width: 100px;
